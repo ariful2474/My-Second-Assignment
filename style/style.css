@@ -417,4 +417,132 @@ color: rgb(1, 172, 253);
     transform: scale(1.1); 
   }
   
-  
+  @media (max-width: 576px) {
+    /* Navbar */
+    .navber {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 15px;
+    }
+
+    .img_school {
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .nav-links {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .btn-primary {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    /* Banner Section */
+    .banner-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .banner-h3 {
+        font-size: 36px;
+    }
+
+    .banner-description {
+        font-size: 16px;
+    }
+
+    .banner-btn {
+        width: 100%;
+    }
+
+    /* Card Section */
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card1, .card2, .card3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card1 img, .card2 img, .card3 img {
+        width: 80px;
+    }
+
+    .card-header {
+        font-size: 32px;
+    }
+
+    .card-section {
+        padding: 20px 10px;
+    }
+
+    .card1-btn, .card2-btn, .card3-btn {
+        width: 100%;
+        padding: 12px;
+    }
+
+    /* Stories Section */
+    .card-section2 {
+        margin: 40px 20px;
+    }
+
+    .ourcardsection-container {
+        grid-template-columns: 1fr;
+    }
+
+    .oc1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .card2345 {
+        grid-template-columns: 1fr;
+    }
+
+    .oc2, .oc3, .oc4, .oc5 {
+        width: 100%;
+    }
+
+    /* Footer */
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .kids, .about-school, .keep {
+        flex: 1 1 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-school .as {
+        font-size: 18px;
+    }
+
+    .footer-description {
+        font-size: 12px;
+    }
+
+    .keep ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
