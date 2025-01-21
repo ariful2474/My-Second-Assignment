@@ -125,6 +125,7 @@ color: rgb(1, 172, 253);
 /* main card section */
 
 .card-section {
+  max-width: 1440px;
     margin: 0 auto;
     padding: 20px;
     background-image: url('../assets/bg.png');
@@ -147,6 +148,7 @@ color: rgb(1, 172, 253);
     gap: 20px; 
     align-items: flex-start;
     flex-wrap: wrap;
+
 }
 
 
@@ -206,7 +208,7 @@ color: rgb(1, 172, 253);
    margin-top: 60px;
 }
 
-}
+
 .cbtn1{
    color: #64C8FF;
 }
@@ -216,4 +218,203 @@ color: rgb(1, 172, 253);
 .cbtn3{
     color: #8700FF;
 }
+ /* main card section2 */
+ .card-section2 {
+    /* background-color: rgba(254, 163, 1, 0.3) */
+   ;
+    margin: 197px auto 190px auto; 
+    padding: 20px;
+    background-image: url('../assets/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1440px; 
+    text-align: center; 
+  }
+  
+  .card2-header {
+    font-weight: 700; 
+    font-size: 46px;
+    margin-top: 0; 
+    margin-bottom: 60px; 
+    text-align: center;}
+  
+  .ourcardsection-container {
+    display: grid;
+    grid-template-columns: 540px auto; 
+    column-gap: 40px; 
+    align-items: start; 
+    margin: 0 140px; }
+  
+  .oc1 {
+    width: 100%;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+  }
+  .card2345 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    row-gap: 25px; 
+    column-gap: 20px; 
+  }
+  
+  .oc2, .oc3, .oc4, .oc5 {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px; 
+  
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .oc1 img {
+    margin-bottom: 20px; 
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+  }
+  
+ 
+  h5 {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    margin: 10px 0;
+  }
+  
+  h6 {
 
+
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center; 
+    margin-top: 30px; 
+  }
+  
+  /* footer style */
+  .footer-section {
+    background-color: rgb(1, 172, 253); 
+    padding: 30px 20px; 
+    margin-top: 40px; 
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    max-width: 1200px;
+    margin: 0 auto; 
+    gap: 30px; 
+    flex-wrap: wrap; }
+  
+  .kids {
+    display: flex;
+    align-items: center; 
+    gap: 15px; 
+    flex: 1 1 30%; 
+    text-align: left; 
+  }
+  
+  .kids img {
+    max-width: 100px; 
+  }
+  
+  .kids h3 {
+    font-size: 24px;
+    color: #343a40;
+    margin: 0; 
+  }
+  
+  .footer-description {
+    font-size: 14px;
+    color: #6c757d; 
+    line-height: 1.6;
+    margin-top: 10px; 
+  }
+  .about-school {
+    flex: 1 1 20%; }
+  
+  .about-school .as {
+    font-size: 20px;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 15px;
+  }
+  
+  .about-school ul {
+    list-style: none; 
+    padding: 0;
+  }
+  
+  .about-school li {
+    margin-bottom: 10px;
+  }
+  
+  .about-school a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
+  
+  .about-school a:hover {
+    color: #0056b3; 
+  }
+  
+  .keep {
+    flex: 1 1 30%; 
+    text-align: left; 
+  }
+  
+  .keep .kt {
+    font-size: 20px;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 15px;
+  }
+  
+  .keep ul {
+    list-style: none; 
+    display: flex;
+    gap: 15px; 
+    padding: 0;
+  }
+  
+  .keep li {
+    display: inline-block; 
+  }
+  
+  .keep img {
+    max-width: 30px; /* Limit icon size */
+    transition: transform 0.3s ease;
+  }
+  
+  .keep img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+  }
+  
+  
