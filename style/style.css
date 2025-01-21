@@ -119,25 +119,101 @@ color: rgb(1, 172, 253);
   .banner-btntext{
     color: rgb(255, 255, 255);
     text-decoration: none;
+    background-image: ();
 }
 
-@media screen and (max-width: 576px) {
+/* main card section */
+
+.card-section {
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url('../assets/bg.png');
+}
+
+
+.card-header {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size: 46px;
+    color: #333;
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.card1, .card2, .card3 {
+    width: 370px;
+    height: 430px;
+    border-radius: 19px;
+
+    padding: 20px;
+    text-align: center;
+   
+}
+.card1{
+    background-color: #DEF5FF;
     
-    .navber {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 15px;
-       
 
-
-    }
-    .school-name{
-        display: none;
-    }
-    .nav-list{
-        display: none;
-    }
-    .btn-primary{
-        display: none;
-    }
 }
+.card2{
+    background-color:#FFF4DC ;
+}
+.card3{
+    background-color: #F2E8FF;
+}
+
+
+
+.card1 img, .card2 img, .card3 img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.card1-h3, .card2-h3, .card3-h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px 0;
+    color: #555;
+    margin-top: 20px;
+}
+
+
+.card1-description, .card2-description, .card3-description {
+    font-size: 16px;
+    color: #777;
+    margin: 10px 0 20px;
+    line-height: 1.6;
+}
+
+
+.card1-btn, .card2-btn, .card3-btn {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+   margin-top: 60px;
+}
+
+}
+.cbtn1{
+   color: #64C8FF;
+}
+.cbtn2{
+    color: #F0AA00;
+}
+.cbtn3{
+    color: #8700FF;
+}
+
